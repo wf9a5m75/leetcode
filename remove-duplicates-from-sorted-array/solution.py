@@ -31,6 +31,16 @@ class Solution:
 
         return k + 1
 
+# https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/1521555/Simple-Python-99-Faster-79-Storage
+class OtherSolution:
+    def removeDuplicates(self, A) -> int:
+        nextP = 0
+        for i in range(len(A)):
+            if A[i] != A[nextP]:
+                nextP += 1
+                A[nextP] = A[i]
+        return nextP + 1
+
 
 def main():
     A = list(map(int, input().split()))
