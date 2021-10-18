@@ -46,15 +46,18 @@ class Solution:
             k -= 1
 
         # Then copy the rest of values
-        restArr = A
-        restIdx = m
-        if (n > -1):
-            restArr = B
-            restIdx = n
-        while(restIdx >= 0):
-            A[k] = restArr[restIdx]
-            k -= 1
-            restIdx -= 1
+        # restArr = A
+        # restIdx = m
+        # if (n > -1):
+        #     restArr = B
+        #     restIdx = n
+        # while(restIdx >= 0):
+        #     A[k] = restArr[restIdx]
+        #     k -= 1
+        #     restIdx -= 1
+
+        # Then copy the rest of values (python technique)
+        A[:n + 1] = B[:n+1]
 
 
 
