@@ -1,4 +1,7 @@
-# Implement strStr()
+# 28. Implement strStr()
+## level: easy
+
+https://leetcode.com/problems/implement-strstr/
 
 ```
 strstr - locate a substring ( needle ) in a string ( haystack ).
