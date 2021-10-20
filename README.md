@@ -1,9 +1,10 @@
 # LeetCode 
-### last update: Wed Oct 20 01:22:21 PDT 2021
+### last update: Wed Oct 20 12:57:34 PDT 2021
 | problem | level|
 |-|-|
 | [ 228. Summary Ranges ](./summary-ranges/README.md) |  easy |
 | [ 167. Two Sum II - Input array is sorted ](./two-sum-ii-input-array-is-sorted/README.md) |  easy |
+| [ 1337. The K Weakest Rows in a Matrix ](./the-k-weakest-rows-in-a-matrix/README.md) |  easy |
 | [ 66. Plus One ](./plus-one/README.md) |  easy |
 | [ 345. Reverse Vowels of a String ](./reverse-vowels-of-a-string/README.md) |  easy |
 | [ 268. Missing Number ](./missing-number/README.md) |  easy |
@@ -15,6 +16,7 @@
 | [ 20. Valid Parentheses ](./valid-parentheses/README.md) |  easy |
 | [ 219. Contains Duplicate II ](./contains-duplicate-ii/README.md) |  easy |
 | [ 374. Guess Number Higher or Lower ](./guess-number-higher-or-lower/README.md) |  easy |
+| [ 1464. Maximum Product of Two Elements in an Array ](./maximum-product-of-two-elements-in-an-array/README.md) |  easy |
 | [ 83. Remove Duplicates from Sorted List ](./remove-duplicates-from-sorted-list/README.md) |  easy |
 | [ 111. Minimum Depth of Binary Tree ](./minimum-depth-of-binary-tree/README.md) |  easy |
 | [ 9. Palindrome Number ](./palindrome-number/README.md) |  easy |
@@ -42,6 +44,7 @@
 | [ 136. Single Number ](./single-number/README.md) |  easy |
 | [ 58. Length of Last Word ](./length-of-last-word/README.md) |  easy |
 | [ 35. Search Insert Position ](./search-insert-position/README.md) |  easy |
+| [ 506. Relative Ranks ](./relative-ranks/README.md) |  medium |
 | [ 283. Move Zeroes ](./move-zeroes/README.md) |  easy |
 | [ 257. Binary Tree Paths ](./binary-tree-paths/README.md) |  easy |
 | [ 160. Intersection of Two Linked Lists ](./intersection-of-two-linked-lists/README.md) |  easy |
