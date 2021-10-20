@@ -1,9 +1,25 @@
 import sys
 from io import StringIO
 from typing import List
+from collections import Counter
 
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+
+        # heap sort approach
+        frequencies = Counter(nums)
+
+        # Obtains top 2 (because we are looking for n / 3)
+        top2 = heapq.nlargest(2, frequencies, key=frequencies.get)
+
+        # Filtering
+        threshold = n / 3
+        results = list(filter(lambda element: frequencies[element] > threshold, top2))
+
+        return results
+
+    def majorityElement_moor_voting(self, nums: List[int]) -> List[int]:
         n = len(nums)
         majorities = [nums[0], 10**9 + 1] # 10**9 + 1 never meet in the array
         counts = [1, 0]
@@ -27,8 +43,8 @@ class Solution:
         for val in nums:
             counts[0] += bool(majorities[0] == val)
             counts[1] += bool(majorities[1] == val)
-        # print(*majorities)
-        # print(*counts)
+        print(*majorities)
+        print(*counts)
 
         threshold = n / 3
         results = []
