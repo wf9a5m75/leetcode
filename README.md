@@ -1,6 +1,7 @@
 # LeetCode 
-### last update: Wed Oct 20 15:08:08 PDT 2021
+### last update: Wed Oct 20 15:08:53 PDT 2021
 ## summary
+| level | counts |
 |-|-|
 | easy |76 |
 | medium |4 |

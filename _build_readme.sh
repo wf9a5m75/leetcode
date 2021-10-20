@@ -38,6 +38,7 @@ do
 done
 
 echo "## summary" >> $OUTPUT
+echo "| level | counts |" >> $OUTPUT
 echo "|-|-|" >> $OUTPUT
 echo "| easy |${easy} |" >> $OUTPUT
 echo "| medium |${medium} |" >> $OUTPUT
