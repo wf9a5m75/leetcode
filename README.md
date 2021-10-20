@@ -1,9 +1,10 @@
 # LeetCode 
-### last update: Wed Oct 20 15:06:46 PDT 2021
+### last update: Wed Oct 20 15:08:08 PDT 2021
 ## summary
-|easy|76 |
-|medium|4 |
-|hard|0 |
+|-|-|
+| easy |76 |
+| medium |4 |
+| hard |0 |
 
 ## questions
 | problem | level| last modified |

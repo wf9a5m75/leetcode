@@ -38,9 +38,10 @@ do
 done
 
 echo "## summary" >> $OUTPUT
-echo "|easy|${easy} |" >> $OUTPUT
-echo "|medium|${medium} |" >> $OUTPUT
-echo "|hard|${hard} |" >> $OUTPUT
+echo "|-|-|" >> $OUTPUT
+echo "| easy |${easy} |" >> $OUTPUT
+echo "| medium |${medium} |" >> $OUTPUT
+echo "| hard |${hard} |" >> $OUTPUT
 echo "" >> $OUTPUT
 cat /tmp/README.md >> $OUTPUT
 rm /tmp/README.md
