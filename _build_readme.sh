@@ -6,10 +6,7 @@ now=$(date)
 echo "### last update: ${now}" >> $OUTPUT
 
 
-echo "## questions" > /tmp/README.md
-echo "| problem | level| last modified |" >> /tmp/README.md
-echo "|-|-|-|" >> /tmp/README.md
-
+echo "" > /tmp/README.md
 
 easy=0
 medium=0
@@ -20,7 +17,8 @@ do
     info=$(head -n 2 "${file_path}")
     name=$(echo ${info} | sed 's/##/#/g' | cut -d '#' -f 2)
     level=$(echo ${info} |  cut -d ':' -f 2 | tr '[:upper:]' '[:lower:]' | tr -d '[:space:]')
-    modified=$(date -r ${file_path})
+    modified=$(stat -f "%Sm" -t "%Y-%m-%d %H:%M" ${file_path})
+    modified_sort=$(stat -f "%Sm" -t "%Y%m%d%H%M" ${file_path})
 
     if [ "${level}" = "easy" ]; then
       ((easy+=1))
@@ -33,7 +31,7 @@ do
     fi
 
 
-    echo "| [${name}]($file_path) | ${level} | ${modified} |" >> /tmp/README.md
+    echo "${modified_sort}@| [${name}]($file_path) | ${level} | ${modified} | " >> /tmp/README.md
   fi
 done
 
@@ -44,5 +42,9 @@ echo "| easy |${easy} |" >> $OUTPUT
 echo "| medium |${medium} |" >> $OUTPUT
 echo "| hard |${hard} |" >> $OUTPUT
 echo "" >> $OUTPUT
-cat /tmp/README.md >> $OUTPUT
+echo "## questions" >> $OUTPUT
+echo "| problem | level| last modified |" >> $OUTPUT
+echo "|-|-|-|" >> $OUTPUT
+
+sort -t'@' -k1 -nr /tmp/README.md  | cut -d'@' -f 2 >> $OUTPUT
 rm /tmp/README.md
