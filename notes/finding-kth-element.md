@@ -138,3 +138,7 @@ and one of the two partition does not do anything, then repeat this `N` times. T
 # Reference
 
 [How to find k-th smallest/largest element in an unsorted array?](https://medium.com/analytics-vidhya/how-to-find-k-th-smallest-largest-element-in-an-unsorted-array-4ab7015d802a)
+
+[JavaScript implementation](https://leetcode.com/problems/kth-largest-element-in-a-stream/discuss/1405458/Javascript-QuickSelect)
+
+[Compare QuickSort, HeapSort, and QuickSelect in python (and actually QuickSelect was slowest!)](https://leetcode.com/submissions/detail/574976004/)
