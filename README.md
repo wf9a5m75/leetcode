@@ -1,15 +1,17 @@
 # LeetCode 
-### last update: Wed Oct 20 20:39:54 PDT 2021
+### last update: Thu Oct 21 01:06:39 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |76 |
-| medium |6 |
+| medium |8 |
 | hard |0 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 912. Sort an Array ](./sort-an-array/README.md) | medium | 2021-10-21 01:06 | 
+| [ 1338. Reduce Array Size to The Half ](./reduce-array-size-to-the-half/README.md) | medium | 2021-10-20 22:36 | 
 | [ 703. Kth Largest Element in a Stream ](./kth-largest-element-in-a-stream/README.md) | medium | 2021-10-20 20:39 | 
 | [ 215. Kth Largest Element in an Array ](./kth-largest-element-in-an-array/README.md) | medium | 2021-10-20 20:38 | 
 | [ 14. Longest Common Prefix ](./longest-common-prefix/README.md) | easy | 2021-10-20 14:40 | 
