@@ -1,15 +1,19 @@
 # LeetCode 
-### last update: Thu Oct 21 12:13:27 PDT 2021
+### last update: Thu Oct 21 16:34:25 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |76 |
-| medium |10 |
+| medium |14 |
 | hard |0 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1962. Remove Stones to Minimize the Total ](./remove-stones-to-minimize-the-total/README.md) | medium | 2021-10-21 16:34 | 
+| [ 1405. Longest Happy String ](./longest-happy-string/README.md) | medium | 2021-10-21 16:00 | 
+| [ 1845. Seat Reservation Manager ](./seat-reservation-manager/README.md) | medium | 2021-10-21 14:56 | 
+| [ 378. Kth Smallest Element in a Sorted Matrix ](./kth-smallest-element-in-a-sorted-matrix/README.md) | medium | 2021-10-21 14:37 | 
 | [ 1094. Car Pooling ](./car-pooling/README.md) | medium | 2021-10-21 12:12 | 
 | [ 1738. Find Kth Largest XOR Coordinate Value ](./find-kth-largest-xor-coordinate-value/README.md) | medium | 2021-10-21 10:39 | 
 | [ 912. Sort an Array ](./sort-an-array/README.md) | medium | 2021-10-21 01:06 | 
