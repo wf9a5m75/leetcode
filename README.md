@@ -1,15 +1,17 @@
 # LeetCode 
-### last update: Thu Oct 21 16:34:25 PDT 2021
+### last update: Thu Oct 21 18:18:26 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |76 |
-| medium |14 |
+| medium |16 |
 | hard |0 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 767. Reorganize String ](./reorganize-string/README.md) | medium | 2021-10-21 17:56 | 
+| [ 692. Top K Frequent Words ](./top-k-frequent-words/README.md) | medium | 2021-10-21 17:00 | 
 | [ 1962. Remove Stones to Minimize the Total ](./remove-stones-to-minimize-the-total/README.md) | medium | 2021-10-21 16:34 | 
 | [ 1405. Longest Happy String ](./longest-happy-string/README.md) | medium | 2021-10-21 16:00 | 
 | [ 1845. Seat Reservation Manager ](./seat-reservation-manager/README.md) | medium | 2021-10-21 14:56 | 
