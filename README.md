@@ -1,15 +1,19 @@
 # LeetCode 
-### last update: Thu Oct 21 18:18:26 PDT 2021
+### last update: Thu Oct 21 21:46:37 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |76 |
-| medium |16 |
+| medium |20 |
 | hard |0 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 3. Longest Substring Without Repeating Characters ](./longest-substring-without-repeating-characters/README.md) | medium | 2021-10-21 21:46 | 
+| [ 371. Sum of Two Integers ](./sum-of-two-integers/README.md) | medium | 2021-10-21 21:26 | 
+| [ 445. Add Two Numbers II ](./add-two-numbers-ii/README.md) | medium | 2021-10-21 19:11 | 
+| [ 2. Add Two Numbers ](./add-two-numbers/README.md) | medium | 2021-10-21 18:49 | 
 | [ 767. Reorganize String ](./reorganize-string/README.md) | medium | 2021-10-21 17:56 | 
 | [ 692. Top K Frequent Words ](./top-k-frequent-words/README.md) | medium | 2021-10-21 17:00 | 
 | [ 1962. Remove Stones to Minimize the Total ](./remove-stones-to-minimize-the-total/README.md) | medium | 2021-10-21 16:34 | 
