@@ -1,15 +1,16 @@
 # LeetCode 
-### last update: Fri Oct 22 15:14:42 PDT 2021
+### last update: Fri Oct 22 22:53:29 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |76 |
-| medium |20 |
+| medium |21 |
 | hard |1 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 5. Longest Palindromic Substring ](./longest-palindromic-substring/README.md) | medium | 2021-10-22 22:53 | 
 | [ 4. Median of Two Sorted Arrays ](./median-of-two-sorted-arrays/README.md) | hard | 2021-10-22 15:14 | 
 | [ 3. Longest Substring Without Repeating Characters ](./longest-substring-without-repeating-characters/README.md) | medium | 2021-10-21 21:46 | 
 | [ 371. Sum of Two Integers ](./sum-of-two-integers/README.md) | medium | 2021-10-21 21:26 | 
