@@ -11,6 +11,7 @@ echo "" > /tmp/README.md
 easy=0
 medium=0
 hard=0
+total=0
 for file_path in $(find . -name "README.md")
 do
   if [ "$file_path" != "./README.md" ]; then
@@ -34,13 +35,14 @@ do
     echo "${modified_sort}@| [${name}]($file_path) | ${level} | ${modified} | " >> /tmp/README.md
   fi
 done
-
+((total=easy+medium+hard))
 echo "## summary" >> $OUTPUT
 echo "| level | counts |" >> $OUTPUT
 echo "|-|-|" >> $OUTPUT
 echo "| easy |${easy} |" >> $OUTPUT
 echo "| medium |${medium} |" >> $OUTPUT
 echo "| hard |${hard} |" >> $OUTPUT
+echo "| total | ${total} |" >> $OUTPUT
 echo "" >> $OUTPUT
 echo "## questions" >> $OUTPUT
 echo "| problem | level| last modified |" >> $OUTPUT

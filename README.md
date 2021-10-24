@@ -1,11 +1,12 @@
 # LeetCode 
-### last update: Sat Oct 23 18:18:33 PDT 2021
+### last update: Sat Oct 23 18:33:05 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |77 |
 | medium |25 |
 | hard |3 |
+| total | 105 |
 
 ## questions
 | problem | level| last modified |
