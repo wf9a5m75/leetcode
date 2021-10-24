@@ -1,16 +1,18 @@
 # LeetCode 
-### last update: Sat Oct 23 18:33:05 PDT 2021
+### last update: Sat Oct 23 20:21:15 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |77 |
-| medium |25 |
+| medium |27 |
 | hard |3 |
-| total | 105 |
+| total | 107 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 39. Combination Sum ](./combination-sum/README.md) | medium | 2021-10-23 20:15 | 
+| [ 17. Letter Combinations of a Phone Number ](./letter-combinations-of-a-phone-number/README.md) | medium | 2021-10-23 18:52 | 
 | [ 273. Integer to English Words ](./integer-to-english-words/README.md) | hard | 2021-10-23 16:53 | 
 | [ 12. Integer to Roman ](./integer-to-roman/README.md) | medium | 2021-10-23 15:44 | 
 | [ 13. Roman to Integer ](./roman-to-integer/README.md) | easy | 2021-10-23 15:03 | 
