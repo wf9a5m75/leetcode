@@ -1,48 +1,25 @@
 import sys
 from io import StringIO
 from typing import List
-
 class Solution:
-    def searchRange(self, nums: List[int], target: int) -> List[int]:
-        N = len(nums)
-        if (N == 0):
-            return [-1, -1]
-        L, R = 0, N - 1
+    def fizzBuzz(self, n: int) -> List[str]:
+        result = []
+        for i in range(1, n + 1):
+            msg = str(i)
+            if i % 3 == 0 or i % 5 == 0:
+                msg = ""
+                if i % 3 == 0:
+                    msg = "Fizz"
 
-        # (1) Find the target value at once
-        while(L != R):
-            mid = (L + R) >> 1
-            if (nums[mid] < target):
-                L = mid + 1
-            else:
-                R = mid
+                if i % 5 == 0:
+                    msg += "Buzz"
+            result.append(msg)
 
-        # If there is no target value in the array,
-        # return -1
-        if (nums[L] != target):
-            return [-1, -1]
-
-        # (2) Then the right edge of the target.
-        R = N
-        ans = [L]
-        target = target + 1
-        while(L != R):
-            mid = (L + R) >> 1
-            if (nums[mid] < target):
-                L = mid + 1
-            else:
-                R = mid
-        ans.append(L - 1)
-        return ans
-
+        return result
 
 def main():
-    N, target = list(map(int, input().split()))
-    nums = []
-    if (N > 0):
-        nums = list(map(int, input().split()))
-    results = Solution().searchRange(nums, target)
-    print(*results)
+    n = int(input())
+    print(*Solution().fizzBuzz(n))
 
 def test(testName, inputFile, outputFile):
     capture = StringIO()
@@ -108,8 +85,8 @@ def test0():
 
 if __name__ == "__main__":
     test0()
-    test1()
-    test2()
+    # test1()
+    # test2()
     # test3()
     # test4()
     # test5()
