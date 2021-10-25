@@ -1,16 +1,21 @@
 # LeetCode 
-### last update: Sun Oct 24 18:00:55 PDT 2021
+### last update: Sun Oct 24 21:08:43 PDT 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |77 |
-| medium |32 |
+| easy |78 |
+| medium |35 |
 | hard |4 |
-| total | 113 |
+| total | 117 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 46. Permutations ](./permutations/README.md) | medium | 2021-10-24 21:08 | 
+| [ 112. Path Sum ](./path-sum/README.md) | easy | 2021-10-24 21:08 | 
+| [ 412. Fizz Buzz ](./fizz-buzz/README.md) | easy | 2021-10-24 20:40 | 
+| [ 36. Valid Sudoku ](./valid-sudoku/README.md) | medium | 2021-10-24 19:11 | 
+| [ 33. Search in Rotated Sorted Array ](./find-first-and-last-position-of-element-in-sorted-array/README.md) | medium | 2021-10-24 18:24 | 
 | [ 33. Search in Rotated Sorted Array ](./search-in-rotated-sorted-array/README.md) | medium | 2021-10-24 18:00 | 
 | [ 50. Pow(x, n) ](./powx-n/README.md) | medium | 2021-10-24 16:13 | 
 | [ 29. Divide Two Integers ](./divide-two-integers/README.md) | medium | 2021-10-24 13:57 | 
@@ -102,7 +107,6 @@
 | [ 121. Best Time to Buy and Sell Stock ](./best-time-to-buy-and-sell-stock/README.md) | easy | 2021-10-18 16:40 | 
 | [ 119. Pascal's Triangle II ](./pascals-triangle-ii/README.md) | easy | 2021-10-18 15:58 | 
 | [ 118. Pascal's Triangle ](./pascals-triangle/README.md) | easy | 2021-10-18 15:22 | 
-| [ 112. Path Sum ](./path-sum/README.md) | easy | 2021-10-18 14:00 | 
 | [ 111. Minimum Depth of Binary Tree ](./minimum-depth-of-binary-tree/README.md) | easy | 2021-10-18 13:42 | 
 | [ 110. Balanced Binary Tree ](./balanced-binary-tree/README.md) | easy | 2021-10-18 13:14 | 
 | [ 108. Convert Sorted Array to Binary Search Tree ](./convert-sorted-array-to-binary-search-tree/README.md) | easy | 2021-10-18 12:02 | 
