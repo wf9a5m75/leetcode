@@ -1,16 +1,21 @@
 # LeetCode 
-### last update: Sat Oct 23 20:44:19 PDT 2021
+### last update: Sun Oct 24 18:00:55 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |77 |
-| medium |28 |
-| hard |3 |
-| total | 108 |
+| medium |32 |
+| hard |4 |
+| total | 113 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 33. Search in Rotated Sorted Array ](./search-in-rotated-sorted-array/README.md) | medium | 2021-10-24 18:00 | 
+| [ 50. Pow(x, n) ](./powx-n/README.md) | medium | 2021-10-24 16:13 | 
+| [ 29. Divide Two Integers ](./divide-two-integers/README.md) | medium | 2021-10-24 13:57 | 
+| [ 23. Merge k Sorted Lists ](./merge-k-sorted-lists/README.md) | hard | 2021-10-24 08:08 | 
+| [ 22. Generate Parentheses ](./generate-parentheses/README.md) | medium | 2021-10-24 07:41 | 
 | [ 19. Remove Nth Node From End of List ](./remove-nth-node-from-end-of-list/README.md) | medium | 2021-10-23 20:44 | 
 | [ 39. Combination Sum ](./combination-sum/README.md) | medium | 2021-10-23 20:15 | 
 | [ 17. Letter Combinations of a Phone Number ](./letter-combinations-of-a-phone-number/README.md) | medium | 2021-10-23 18:52 | 
