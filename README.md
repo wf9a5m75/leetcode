@@ -1,16 +1,23 @@
 # LeetCode 
-### last update: Sun Oct 24 21:08:43 PDT 2021
+### last update: Mon Oct 25 16:45:30 PDT 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |78 |
-| medium |35 |
-| hard |4 |
-| total | 117 |
+| easy |80 |
+| medium |39 |
+| hard |5 |
+| total | 124 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 41. First Missing Positive ](./first-missing-positive/README.md) | hard | 2021-10-25 16:32 | 
+| [ 38. Count and Say ](./count-and-say/README.md) | medium | 2021-10-25 14:46 | 
+| [ 383. Ransom Note ](./ransom-note/README.md) | easy | 2021-10-25 13:00 | 
+| [ 338. Counting Bits ](./counting-bits/README.md) | easy | 2021-10-25 12:56 | 
+| [ 90. Subsets II ](./subsets-ii/README.md) | medium | 2021-10-25 09:07 | 
+| [ 78. Subsets ](./subsets/README.md) | medium | 2021-10-25 07:05 | 
+| [ 47. Permutations II ](./permutations-ii/README.md) | medium | 2021-10-24 21:23 | 
 | [ 46. Permutations ](./permutations/README.md) | medium | 2021-10-24 21:08 | 
 | [ 112. Path Sum ](./path-sum/README.md) | easy | 2021-10-24 21:08 | 
 | [ 412. Fizz Buzz ](./fizz-buzz/README.md) | easy | 2021-10-24 20:40 | 
