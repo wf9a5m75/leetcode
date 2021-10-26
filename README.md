@@ -1,16 +1,19 @@
 # LeetCode 
-### last update: Mon Oct 25 16:45:30 PDT 2021
+### last update: Mon Oct 25 20:12:47 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |80 |
-| medium |39 |
+| medium |42 |
 | hard |5 |
-| total | 124 |
+| total | 127 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 885. Spiral Matrix III ](./spiral-matrix-iii/README.md) | medium | 2021-10-25 20:12 | 
+| [ 59. Spiral Matrix II ](./spiral-matrix-ii/README.md) | medium | 2021-10-25 18:52 | 
+| [ 54. Spiral Matrix ](./spiral-matrix/README.md) | medium | 2021-10-25 18:16 | 
 | [ 41. First Missing Positive ](./first-missing-positive/README.md) | hard | 2021-10-25 16:32 | 
 | [ 38. Count and Say ](./count-and-say/README.md) | medium | 2021-10-25 14:46 | 
 | [ 383. Ransom Note ](./ransom-note/README.md) | easy | 2021-10-25 13:00 | 
