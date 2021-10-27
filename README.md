@@ -1,16 +1,25 @@
 # LeetCode 
-### last update: Mon Oct 25 20:12:47 PDT 2021
+### last update: Wed Oct 27 08:25:34 PDT 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |80 |
-| medium |42 |
+| easy |82 |
+| medium |49 |
 | hard |5 |
-| total | 127 |
+| total | 136 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 238. Product of Array Except Self ](./product-of-array-except-self/README.md) | medium | 2021-10-27 08:23 | 
+| [ 501. Find Mode in Binary Search Tree ](./find-mode-in-binary-search-tree/README.md) | easy | 2021-10-27 07:49 | 
+| [ 98. Validate Binary Search Tree ](./validate-binary-search-tree/README.md) | medium | 2021-10-27 06:35 | 
+| [ 56. Merge Intervals ](./merge-intervals/README.md) | medium | 2021-10-26 20:28 | 
+| [ 942. DI String Match ](./di-string-match/README.md) | easy | 2021-10-26 19:50 | 
+| [ 6. ZigZag Conversion ](./zigzag-conversion/README.md) | medium | 2021-10-26 18:48 | 
+| [ 55. Jump Game ](./jump-game/README.md) | medium | 2021-10-26 18:23 | 
+| [ 49. Group Anagrams ](./group-anagrams/README.md) | medium | 2021-10-26 16:25 | 
+| [ 48. Rotate Image ](./rotate-image/README.md) | medium | 2021-10-26 15:26 | 
 | [ 885. Spiral Matrix III ](./spiral-matrix-iii/README.md) | medium | 2021-10-25 20:12 | 
 | [ 59. Spiral Matrix II ](./spiral-matrix-ii/README.md) | medium | 2021-10-25 18:52 | 
 | [ 54. Spiral Matrix ](./spiral-matrix/README.md) | medium | 2021-10-25 18:16 | 
