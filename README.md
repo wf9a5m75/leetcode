@@ -1,16 +1,20 @@
 # LeetCode 
-### last update: Wed Oct 27 23:34:26 PDT 2021
+### last update: Thu Oct 28 13:48:26 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |83 |
-| medium |58 |
-| hard |5 |
-| total | 146 |
+| medium |61 |
+| hard |6 |
+| total | 150 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 42. Trapping Rain Water ](./trapping-rain-water/README.md) | hard | 2021-10-28 13:23 | 
+| [ 454. 4Sum II ](./4sum-ii/README.md) | medium | 2021-10-28 13:15 | 
+| [ 18. 4Sum ](./4sum/README.md) | medium | 2021-10-28 12:47 | 
+| [ 648. Replace Words ](./replace-words/README.md) | medium | 2021-10-28 09:53 | 
 | [ 676. Implement Magic Dictionary ](./implement-magic-dictionary/README.md) | medium | 2021-10-27 23:34 | 
 | [ 208. Implement Trie (Prefix Tree) ](./implement-trie-prefix-tree/README.md) | medium | 2021-10-27 22:03 | 
 | [ 341. Flatten Nested List Iterator ](./flatten-nested-list-iterator/README.md) | medium | 2021-10-27 21:00 | 
