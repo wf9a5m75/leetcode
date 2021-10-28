@@ -1,16 +1,21 @@
 # LeetCode 
-### last update: Wed Oct 27 13:49:20 PDT 2021
+### last update: Wed Oct 27 17:09:26 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |82 |
-| medium |50 |
+| medium |55 |
 | hard |5 |
-| total | 137 |
+| total | 142 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 287. Find the Duplicate Number ](./find-the-duplicate-number/README.md) | medium | 2021-10-27 17:09 | 
+| [ 142. Linked List Cycle II ](./linked-list-cycle-ii/README.md) | medium | 2021-10-27 17:01 | 
+| [ 328. Odd Even Linked List ](./odd-even-linked-list/README.md) | medium | 2021-10-27 15:14 | 
+| [ 637. Average of Levels in Binary Tree ](./average-of-levels-in-binary-tree/README.md) | medium | 2021-10-27 15:00 | 
+| [ 102. Binary Tree Level Order Traversal ](./binary-tree-level-order-traversal/README.md) | medium | 2021-10-27 14:52 | 
 | [ 122. Best Time to Buy and Sell Stock II ](./best-time-to-buy-and-sell-stock-ii/README.md) | medium | 2021-10-27 13:49 | 
 | [ 238. Product of Array Except Self ](./product-of-array-except-self/README.md) | medium | 2021-10-27 08:23 | 
 | [ 501. Find Mode in Binary Search Tree ](./find-mode-in-binary-search-tree/README.md) | easy | 2021-10-27 07:49 | 
