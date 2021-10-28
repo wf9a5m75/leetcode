@@ -1,16 +1,20 @@
 # LeetCode 
-### last update: Wed Oct 27 17:09:26 PDT 2021
+### last update: Wed Oct 27 23:34:26 PDT 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |82 |
-| medium |55 |
+| easy |83 |
+| medium |58 |
 | hard |5 |
-| total | 142 |
+| total | 146 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 676. Implement Magic Dictionary ](./implement-magic-dictionary/README.md) | medium | 2021-10-27 23:34 | 
+| [ 208. Implement Trie (Prefix Tree) ](./implement-trie-prefix-tree/README.md) | medium | 2021-10-27 22:03 | 
+| [ 341. Flatten Nested List Iterator ](./flatten-nested-list-iterator/README.md) | medium | 2021-10-27 21:00 | 
+| [ 645. Set Mismatch ](./set-mismatch/README.md) | easy | 2021-10-27 19:10 | 
 | [ 287. Find the Duplicate Number ](./find-the-duplicate-number/README.md) | medium | 2021-10-27 17:09 | 
 | [ 142. Linked List Cycle II ](./linked-list-cycle-ii/README.md) | medium | 2021-10-27 17:01 | 
 | [ 328. Odd Even Linked List ](./odd-even-linked-list/README.md) | medium | 2021-10-27 15:14 | 
