@@ -33,7 +33,7 @@ do
     fi
 
 
-    echo "${modified_sort}@| [${name}]($dir_path)/ | ${level} | ${modified} | " >> /tmp/README.md
+    echo "${modified_sort}@| [${name}]($dir_path/) | ${level} | ${modified} | " >> /tmp/README.md
   fi
 done
 ((total=easy+medium+hard))
