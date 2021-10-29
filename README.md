@@ -1,16 +1,19 @@
 # LeetCode 
-### last update: Thu Oct 28 13:48:26 PDT 2021
+### last update: Thu Oct 28 18:50:38 PDT 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |83 |
-| medium |61 |
+| easy |84 |
+| medium |63 |
 | hard |6 |
-| total | 150 |
+| total | 153 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 62. Unique Paths ](./unique-paths/README.md) | medium | 2021-10-28 18:49 | 
+| [ 797. All Paths From Source to Target ](./all-paths-from-source-to-target/README.md) | medium | 2021-10-28 18:04 | 
+| [ 1863. Sum of All Subset XOR Totals ](./sum-of-all-subset-xor-totals/README.md) | easy | 2021-10-28 17:43 | 
 | [ 42. Trapping Rain Water ](./trapping-rain-water/README.md) | hard | 2021-10-28 13:23 | 
 | [ 454. 4Sum II ](./4sum-ii/README.md) | medium | 2021-10-28 13:15 | 
 | [ 18. 4Sum ](./4sum/README.md) | medium | 2021-10-28 12:47 | 
