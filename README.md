@@ -1,16 +1,18 @@
 # LeetCode 
-### last update: Thu Oct 28 18:50:38 PDT 2021
+### last update: Thu Oct 28 23:00:08 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |84 |
-| medium |63 |
-| hard |6 |
-| total | 153 |
+| medium |64 |
+| hard |7 |
+| total | 155 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 980. Unique Paths III ](./unique-paths-iii/README.md) | hard | 2021-10-28 23:00 | 
+| [ 63. Unique Paths II ](./unique-paths-ii/README.md) | medium | 2021-10-28 21:54 | 
 | [ 62. Unique Paths ](./unique-paths/README.md) | medium | 2021-10-28 18:49 | 
 | [ 797. All Paths From Source to Target ](./all-paths-from-source-to-target/README.md) | medium | 2021-10-28 18:04 | 
 | [ 1863. Sum of All Subset XOR Totals ](./sum-of-all-subset-xor-totals/README.md) | easy | 2021-10-28 17:43 | 
