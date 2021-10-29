@@ -20,7 +20,7 @@ do
     level=$(echo ${info} |  cut -d ':' -f 2 | tr '[:upper:]' '[:lower:]' | tr -d '[:space:]')
     modified=$(stat -f "%Sm" -t "%Y-%m-%d %H:%M" ${file_path})
     modified_sort=$(stat -f "%Sm" -t "%Y%m%d%H%M" ${file_path})
-    dirpath=$(dirname $file_path)
+    dir_path=$(dirname $file_path)
 
     if [ "${level}" = "easy" ]; then
       ((easy+=1))
@@ -33,7 +33,7 @@ do
     fi
 
 
-    echo "${modified_sort}@| [${name}]($dir_path) | ${level} | ${modified} | " >> /tmp/README.md
+    echo "${modified_sort}@| [${name}]($dir_path)/ | ${level} | ${modified} | " >> /tmp/README.md
   fi
 done
 ((total=easy+medium+hard))
