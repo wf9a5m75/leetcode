@@ -1,16 +1,19 @@
 # LeetCode 
-### last update: Fri Oct 29 05:23:18 PDT 2021
+### last update: Fri Oct 29 18:34:43 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |84 |
-| medium |64 |
-| hard |7 |
-| total | 155 |
+| medium |66 |
+| hard |8 |
+| total | 158 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1286. Iterator for Combination ](./iterator-for-combination/) | medium | 2021-10-29 17:54 | 
+| [ 1255. Maximum Score Words Formed by Letters ](./maximum-score-words-formed-by-letters/) | hard | 2021-10-29 13:17 | 
+| [ 1079. Letter Tile Possibilities ](./letter-tile-possibilities/) | medium | 2021-10-29 09:14 | 
 | [ 980. Unique Paths III ](./unique-paths-iii/) | hard | 2021-10-28 23:00 | 
 | [ 63. Unique Paths II ](./unique-paths-ii/) | medium | 2021-10-28 21:54 | 
 | [ 62. Unique Paths ](./unique-paths/) | medium | 2021-10-28 18:49 | 
