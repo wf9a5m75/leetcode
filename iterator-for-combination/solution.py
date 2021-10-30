@@ -3,7 +3,6 @@ class CombinationIterator:
     def __init__(self, characters: str, combinationLength: int):
         self.combinations = []
         characters = list(characters)
-        N = len(characters)
 
         def generate(characters, remainDepth):
             if remainDepth == 0:
