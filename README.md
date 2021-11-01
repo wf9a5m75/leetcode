@@ -1,16 +1,21 @@
 # LeetCode 
-### last update: Fri Oct 29 18:34:43 PDT 2021
+### last update: Mon Nov  1 12:22:39 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |84 |
-| medium |66 |
+| medium |71 |
 | hard |8 |
-| total | 158 |
+| total | 163 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1268. Search Suggestions System ](./search-suggestions-system/) | medium | 2021-11-01 12:22 | 
+| [ 1219. Path with Maximum Gold ](./path-with-maximum-gold/) | medium | 2021-10-30 15:22 | 
+| [ 1238. Circular Permutation in Binary Representation ](./circular-permutation-in-binary-representation/) | medium | 2021-10-30 13:22 | 
+| [ 784. Letter Case Permutation ](./letter-case-permutation/) | medium | 2021-10-30 08:24 | 
+| [ 1415. The k-th Lexicographical String of All Happy Strings of Length n ](./the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | medium | 2021-10-29 19:19 | 
 | [ 1286. Iterator for Combination ](./iterator-for-combination/) | medium | 2021-10-29 17:54 | 
 | [ 1255. Maximum Score Words Formed by Letters ](./maximum-score-words-formed-by-letters/) | hard | 2021-10-29 13:17 | 
 | [ 1079. Letter Tile Possibilities ](./letter-tile-possibilities/) | medium | 2021-10-29 09:14 | 
