@@ -1,16 +1,20 @@
 # LeetCode 
-### last update: Mon Nov  1 22:19:59 PDT 2021
+### last update: Tue Nov  2 11:35:04 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |84 |
-| medium |75 |
+| medium |78 |
 | hard |8 |
-| total | 167 |
+| total | 170 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers ](./partitioning-into-minimum-number-of-deci-binary-numbers/) | medium | 2021-11-02 11:12 | 
+| [ 1476. Subrectangle Queries ](./subrectangle-queries/) | medium | 2021-11-02 10:51 | 
+| [ 130. Surrounded Regions ](./surrounded-regions/) | medium | 2021-11-02 10:43 | 
+| [ 101. Symmetric Tree ](./symmetric-tree/) | easy | 2021-11-02 10:43 | 
 | [ 64. Minimum Path Sum ](./minimum-path-sum/) | medium | 2021-11-01 22:19 | 
 | [ 111. Minimum Depth of Binary Tree ](./minimum-depth-of-binary-tree/) | easy | 2021-11-01 22:19 | 
 | [ 71. Simplify Path ](./simplify-path/) | medium | 2021-11-01 19:49 | 
@@ -161,7 +165,6 @@
 | [ 110. Balanced Binary Tree ](./balanced-binary-tree/) | easy | 2021-10-18 13:14 | 
 | [ 108. Convert Sorted Array to Binary Search Tree ](./convert-sorted-array-to-binary-search-tree/) | easy | 2021-10-18 12:02 | 
 | [ 104. Maximum Depth of Binary Tree ](./maximum-depth-of-binary-tree/) | easy | 2021-10-18 11:45 | 
-| [ 101. Symmetric Tree ](./symmetric-tree/) | easy | 2021-10-18 11:12 | 
 | [ 88. Merge Sorted Array ](./merge-sorted-array/) | easy | 2021-10-17 23:47 | 
 | [ 83. Remove Duplicates from Sorted List ](./remove-duplicates-from-sorted-list/) | easy | 2021-10-17 23:37 | 
 | [ 70. Climbing Stairs ](./climbing-stairs/) | easy | 2021-10-17 22:58 | 
