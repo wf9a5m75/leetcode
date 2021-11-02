@@ -1,16 +1,21 @@
 # LeetCode 
-### last update: Mon Nov  1 12:22:39 PDT 2021
+### last update: Mon Nov  1 22:19:59 PDT 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |84 |
-| medium |71 |
+| medium |75 |
 | hard |8 |
-| total | 163 |
+| total | 167 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 64. Minimum Path Sum ](./minimum-path-sum/) | medium | 2021-11-01 22:19 | 
+| [ 111. Minimum Depth of Binary Tree ](./minimum-depth-of-binary-tree/) | easy | 2021-11-01 22:19 | 
+| [ 71. Simplify Path ](./simplify-path/) | medium | 2021-11-01 19:49 | 
+| [ 61. Rotate List ](./rotate-list/) | medium | 2021-11-01 19:16 | 
+| [ 216. Combination Sum III ](./combination-sum-iii/) | medium | 2021-11-01 13:33 | 
 | [ 1268. Search Suggestions System ](./search-suggestions-system/) | medium | 2021-11-01 12:22 | 
 | [ 1219. Path with Maximum Gold ](./path-with-maximum-gold/) | medium | 2021-10-30 15:22 | 
 | [ 1238. Circular Permutation in Binary Representation ](./circular-permutation-in-binary-representation/) | medium | 2021-10-30 13:22 | 
@@ -153,7 +158,6 @@
 | [ 121. Best Time to Buy and Sell Stock ](./best-time-to-buy-and-sell-stock/) | easy | 2021-10-18 16:40 | 
 | [ 119. Pascal's Triangle II ](./pascals-triangle-ii/) | easy | 2021-10-18 15:58 | 
 | [ 118. Pascal's Triangle ](./pascals-triangle/) | easy | 2021-10-18 15:22 | 
-| [ 111. Minimum Depth of Binary Tree ](./minimum-depth-of-binary-tree/) | easy | 2021-10-18 13:42 | 
 | [ 110. Balanced Binary Tree ](./balanced-binary-tree/) | easy | 2021-10-18 13:14 | 
 | [ 108. Convert Sorted Array to Binary Search Tree ](./convert-sorted-array-to-binary-search-tree/) | easy | 2021-10-18 12:02 | 
 | [ 104. Maximum Depth of Binary Tree ](./maximum-depth-of-binary-tree/) | easy | 2021-10-18 11:45 | 
