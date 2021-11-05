@@ -1,16 +1,23 @@
 # LeetCode 
-### last update: Wed Nov  3 22:07:56 PDT 2021
+### last update: Thu Nov  4 19:06:50 PDT 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |87 |
-| medium |90 |
-| hard |8 |
-| total | 185 |
+| easy |90 |
+| medium |93 |
+| hard |9 |
+| total | 192 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 151. Reverse Words in a String ](./reverse-words-in-a-string/) | medium | 2021-11-04 19:03 | 
+| [ 653. Two Sum IV - Input is a BST ](./two-sum-iv-input-is-a-bst/) | easy | 2021-11-04 17:08 | 
+| [ 189. Rotate Array ](./rotate-array/) | medium | 2021-11-04 16:05 | 
+| [ 977. Squares of a Sorted Array ](./squares-of-a-sorted-array/) | easy | 2021-11-04 15:17 | 
+| [ 704. Binary Search ](./binary-search/) | easy | 2021-11-04 14:31 | 
+| [ 43. Multiply Strings ](./multiply-strings/) | medium | 2021-11-04 11:55 | 
+| [ 32. Longest Valid Parentheses ](./longest-valid-parentheses/) | hard | 2021-11-04 09:02 | 
 | [ 404. Sum of Left Leaves ](./sum-of-left-leaves/) | easy | 2021-11-03 22:07 | 
 | [ 392. Is Subsequence ](./is-subsequence/) | easy | 2021-11-03 21:52 | 
 | [ 11. Container With Most Water ](./container-with-most-water/) | medium | 2021-11-03 21:06 | 
