@@ -3,7 +3,18 @@ from io import StringIO
 from typing import List
 
 class Solution:
-    def maxSubArray(self, A: List[int]) -> int:
+
+    def maxSubArray(self, nums: List[int]) -> int:
+        # Greedy
+        s = 0
+        maxS = -10**4
+        for num in nums:
+            s = max(s + num, num)
+            maxS = max(maxS, s)
+        return maxS
+
+    def maxSubArray_dp(self, A: List[int]) -> int:
+        # DP
         sizeA = len(A)
         dp = [ A[0] ] * (sizeA + 1)
         for i in range(1, sizeA):
