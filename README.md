@@ -1,16 +1,30 @@
 # LeetCode 
-### last update: Fri Nov  5 19:48:33 PDT 2021
+### last update: Mon Nov  8 17:17:43 PST 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |94 |
-| medium |101 |
+| easy |101 |
+| medium |108 |
 | hard |9 |
-| total | 204 |
+| total | 218 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1004. Max Consecutive Ones III ](./max-consecutive-ones-iii/) | medium | 2021-11-08 17:15 | 
+| [ 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold ](./number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | medium | 2021-11-08 16:31 | 
+| [ 1876. Substrings of Size Three with Distinct Characters ](./substrings-of-size-three-with-distinct-characters/) | easy | 2021-11-08 16:10 | 
+| [ 485. Max Consecutive Ones ](./max-consecutive-ones/) | easy | 2021-11-08 15:48 | 
+| [ 477. Total Hamming Distance ](./total-hamming-distance/) | medium | 2021-11-08 15:48 | 
+| [ 461. Hamming Distance ](./hamming-distance/) | easy | 2021-11-08 14:50 | 
+| [ 701. Insert into a Binary Search Tree ](./insert-into-a-binary-search-tree/) | medium | 2021-11-08 13:16 | 
+| [ 700. Search in a Binary Search Tree ](./search-in-a-binary-search-tree/) | easy | 2021-11-08 09:28 | 
+| [ 232. Implement Queue using Stacks ](./implement-queue-using-stacks/) | easy | 2021-11-08 07:09 | 
+| [ 566. Reshape the Matrix ](./reshape-the-matrix/) | easy | 2021-11-07 19:16 | 
+| [ 2006. Count Number of Pairs With Absolute Difference K ](./count-number-of-pairs-with-absolute-difference-k/) | easy | 2021-11-07 18:56 | 
+| [ 137. Single Number II ](./single-number-ii/) | medium | 2021-11-07 14:03 | 
+| [ 120. Triangle ](./triangle/) | medium | 2021-11-07 10:09 | 
+| [ 260. Single Number III ](./single-number-iii/) | medium | 2021-11-06 18:17 | 
 | [ 198. House Robber ](./house-robber/) | medium | 2021-11-05 19:47 | 
 | [ 77. Combinations ](./combinations/) | medium | 2021-11-05 18:01 | 
 | [ 994. Rotting Oranges ](./rotting-oranges/) | medium | 2021-11-05 15:46 | 
