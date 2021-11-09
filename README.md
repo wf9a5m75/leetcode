@@ -1,16 +1,17 @@
 # LeetCode 
-### last update: Mon Nov  8 17:17:43 PST 2021
+### last update: Mon Nov  8 19:07:32 PST 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |101 |
-| medium |108 |
+| medium |109 |
 | hard |9 |
-| total | 218 |
+| total | 219 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1358. Number of Substrings Containing All Three Characters ](./number-of-substrings-containing-all-three-characters/) | medium | 2021-11-08 19:06 | 
 | [ 1004. Max Consecutive Ones III ](./max-consecutive-ones-iii/) | medium | 2021-11-08 17:15 | 
 | [ 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold ](./number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | medium | 2021-11-08 16:31 | 
 | [ 1876. Substrings of Size Three with Distinct Characters ](./substrings-of-size-three-with-distinct-characters/) | easy | 2021-11-08 16:10 | 
