@@ -1,16 +1,22 @@
 # LeetCode 
-### last update: Mon Nov  8 19:07:32 PST 2021
+### last update: Mon Nov  8 22:40:45 PST 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |101 |
+| easy |107 |
 | medium |109 |
 | hard |9 |
-| total | 219 |
+| total | 225 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 905. Sort Array By Parity ](./sort-array-by-parity/) | easy | 2021-11-08 22:38 | 
+| [ 1299. Replace Elements with Greatest Element on Right Side ](./replace-elements-with-greatest-element-on-right-side/) | easy | 2021-11-08 22:32 | 
+| [ 1089. Duplicate Zeros ](./duplicate-zeros/) | easy | 2021-11-08 22:32 | 
+| [ 941. Valid Mountain Array ](./valid-mountain-array/) | easy | 2021-11-08 22:26 | 
+| [ 1346. Check If N and Its Double Exist ](./check-if-n-and-its-double-exist/) | easy | 2021-11-08 22:17 | 
+| [ 1295. Find Numbers with Even Number of Digits ](./find-numbers-with-even-number-of-digits/) | easy | 2021-11-08 22:01 | 
 | [ 1358. Number of Substrings Containing All Three Characters ](./number-of-substrings-containing-all-three-characters/) | medium | 2021-11-08 19:06 | 
 | [ 1004. Max Consecutive Ones III ](./max-consecutive-ones-iii/) | medium | 2021-11-08 17:15 | 
 | [ 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold ](./number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | medium | 2021-11-08 16:31 | 
