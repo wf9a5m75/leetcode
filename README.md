@@ -1,16 +1,24 @@
 # LeetCode 
-### last update: Mon Nov  8 22:40:45 PST 2021
+### last update: Wed Nov 10 09:07:44 PST 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |107 |
-| medium |109 |
+| easy |111 |
+| medium |113 |
 | hard |9 |
-| total | 225 |
+| total | 233 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1031. Maximum Sum of Two Non-Overlapping Subarrays ](./maximum-sum-of-two-non-overlapping-subarrays/) | medium | 2021-11-10 09:06 | 
+| [ 1493. Longest Subarray of 1's After Deleting One Element ](./longest-subarray-of-1s-after-deleting-one-element/) | medium | 2021-11-09 19:59 | 
+| [ 204. Count Primes ](./count-primes/) | medium | 2021-11-09 13:40 | 
+| [ 442. Find All Duplicates in an Array ](./find-all-duplicates-in-an-array/) | medium | 2021-11-09 12:07 | 
+| [ 448. Find All Numbers Disappeared in an Array ](./find-all-numbers-disappeared-in-an-array/) | easy | 2021-11-09 11:19 | 
+| [ 414. Third Maximum Number ](./third-maximum-number/) | easy | 2021-11-09 09:46 | 
+| [ 1051. Height Checker ](./height-checker/) | easy | 2021-11-09 09:33 | 
+| [ 922. Sort Array By Parity II ](./sort-array-by-parity-ii/) | easy | 2021-11-09 09:28 | 
 | [ 905. Sort Array By Parity ](./sort-array-by-parity/) | easy | 2021-11-08 22:38 | 
 | [ 1299. Replace Elements with Greatest Element on Right Side ](./replace-elements-with-greatest-element-on-right-side/) | easy | 2021-11-08 22:32 | 
 | [ 1089. Duplicate Zeros ](./duplicate-zeros/) | easy | 2021-11-08 22:32 | 
