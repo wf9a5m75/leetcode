@@ -1,16 +1,28 @@
 # LeetCode 
-### last update: Wed Nov 10 09:07:44 PST 2021
+### last update: Tue Nov 16 11:55:09 PST 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |111 |
-| medium |113 |
+| easy |120 |
+| medium |116 |
 | hard |9 |
-| total | 233 |
+| total | 245 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1314. Matrix Block Sum ](./matrix-block-sum/) | medium | 2021-11-15 09:31 | 
+| [ 1829. Maximum XOR for Each Query ](./maximum-xor-for-each-query/) | medium | 2021-11-12 16:36 | 
+| [ 724. Find Pivot Index ](./find-pivot-index/) | easy | 2021-11-12 13:32 | 
+| [ 1893. Check if All the Integers in a Range Are Covered ](./check-if-all-the-integers-in-a-range-are-covered/) | easy | 2021-11-12 10:25 | 
+| [ 1991. Find the Middle Index in Array ](./find-the-middle-index-in-array/) | easy | 2021-11-11 09:49 | 
+| [ 1732. Find the Highest Altitude ](./find-the-highest-altitude/) | easy | 2021-11-11 09:30 | 
+| [ 1588. Sum of All Odd Length Subarrays ](./sum-of-all-odd-length-subarrays/) | easy | 2021-11-11 08:16 | 
+| [ 1480. Running Sum of 1d Array ](./running-sum-of-1d-array/) | easy | 2021-11-11 07:49 | 
+| [ 1413. Minimum Value to Get Positive Step by Step Sum ](./minimum-value-to-get-positive-step-by-step-sum/) | easy | 2021-11-11 07:46 | 
+| [ 1672. Richest Customer Wealth ](./richest-customer-wealth/) | easy | 2021-11-10 19:02 | 
+| [ 1034. Coloring A Border ](./coloring-a-border/) | medium | 2021-11-10 15:05 | 
+| [ 463. Island Perimeter ](./island-perimeter/) | easy | 2021-11-10 12:33 | 
 | [ 1031. Maximum Sum of Two Non-Overlapping Subarrays ](./maximum-sum-of-two-non-overlapping-subarrays/) | medium | 2021-11-10 09:06 | 
 | [ 1493. Longest Subarray of 1's After Deleting One Element ](./longest-subarray-of-1s-after-deleting-one-element/) | medium | 2021-11-09 19:59 | 
 | [ 204. Count Primes ](./count-primes/) | medium | 2021-11-09 13:40 | 
