@@ -13,10 +13,10 @@ class Solution:
                     mat[i][j] += mat[i][j - 1]
                 if i > 0 and j > 0:
                     mat[i][j] -= mat[i - 1][j - 1]
-        print("---------------")
-        for row in mat:
-            print(*row)
-        print("---------------")
+        # print("---------------")
+        # for row in mat:
+        #     print(*row)
+        # print("---------------")
 
         for i in range(M):
             for j in range(N):
