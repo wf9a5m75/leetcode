@@ -1,16 +1,21 @@
 # LeetCode 
-### last update: Tue Nov 16 11:55:09 PST 2021
+### last update: Wed Nov 17 18:07:10 PST 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |120 |
-| medium |116 |
+| medium |121 |
 | hard |9 |
-| total | 245 |
+| total | 250 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 2024. Maximize the Confusion of an Exam ](./maximize-the-confusion-of-an-exam/) | medium | 2021-11-17 17:33 | 
+| [ 1109. Corporate Flight Bookings ](./corporate-flight-bookings/) | medium | 2021-11-17 14:50 | 
+| [ 1371. Find the Longest Substring Containing Vowels in Even Counts ](./find-the-longest-substring-containing-vowels-in-even-counts/) | medium | 2021-11-17 08:07 | 
+| [ 1685. Sum of Absolute Differences in a Sorted Array ](./sum-of-absolute-differences-in-a-sorted-array/) | medium | 2021-11-16 16:05 | 
+| [ 1310. XOR Queries of a Subarray ](./xor-queries-of-a-subarray/) | medium | 2021-11-16 12:36 | 
 | [ 1314. Matrix Block Sum ](./matrix-block-sum/) | medium | 2021-11-15 09:31 | 
 | [ 1829. Maximum XOR for Each Query ](./maximum-xor-for-each-query/) | medium | 2021-11-12 16:36 | 
 | [ 724. Find Pivot Index ](./find-pivot-index/) | easy | 2021-11-12 13:32 | 
