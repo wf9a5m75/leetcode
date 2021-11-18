@@ -1,4 +1,34 @@
 class Solution:
+    def maxConsecutiveAnswers(self, answerKey: str, k: int) -> int:
+        """
+        Optimized solution
+        """
+        orgK = k
+        N = len(answerKey)
+        L = 0
+        for char in answerKey:
+            if char == "T":
+                k -= 1
+            if k < 0:
+                if answerKey[L] == "T":
+                    k += 1
+                L += 1
+        falseCount = N - L
+
+
+        L = 0
+        k = orgK
+        for char in answerKey:
+            if char == "F":
+                k -= 1
+            if k < 0:
+                if answerKey[L] == "F":
+                    k += 1
+                L += 1
+        trueCount = N - L
+
+        return max(falseCount, trueCount)
+
     def _maxConsecutive(self, answerKey: str, k: int, correct: str, incorrect: str) -> int:
         N = len(answerKey)
         L = R = ans = 0
@@ -19,7 +49,7 @@ class Solution:
         ans = max(ans, R - L)
         return ans
 
-    def maxConsecutiveAnswers(self, answerKey: str, k: int) -> int:
+    def maxConsecutiveAnswers_myanswer(self, answerKey: str, k: int) -> int:
         ans = self._maxConsecutive(answerKey, k, "T", "F")
         ans = max(ans, self._maxConsecutive(answerKey, k, "F", "T"))
 
