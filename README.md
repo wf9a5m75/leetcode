@@ -1,16 +1,19 @@
 # LeetCode 
-### last update: Wed Nov 17 18:07:10 PST 2021
+### last update: Thu Nov 18 18:20:36 PST 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |120 |
-| medium |121 |
+| medium |124 |
 | hard |9 |
-| total | 250 |
+| total | 253 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1590. Make Sum Divisible by P ](./make-sum-divisible-by-p/) | medium | 2021-11-18 18:19 | 
+| [ 974. Subarray Sums Divisible by K ](./subarray-sums-divisible-by-k/) | medium | 2021-11-18 11:47 | 
+| [ 560. Subarray Sum Equals K ](./subarray-sum-equals-k/) | medium | 2021-11-18 09:29 | 
 | [ 2024. Maximize the Confusion of an Exam ](./maximize-the-confusion-of-an-exam/) | medium | 2021-11-17 17:33 | 
 | [ 1109. Corporate Flight Bookings ](./corporate-flight-bookings/) | medium | 2021-11-17 14:50 | 
 | [ 1371. Find the Longest Substring Containing Vowels in Even Counts ](./find-the-longest-substring-containing-vowels-in-even-counts/) | medium | 2021-11-17 08:07 | 
