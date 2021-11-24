@@ -1,16 +1,19 @@
 # LeetCode 
-### last update: Mon Nov 22 15:56:31 PST 2021
+### last update: Wed Nov 24 07:32:38 PST 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |125 |
-| medium |132 |
+| easy |126 |
+| medium |134 |
 | hard |9 |
-| total | 266 |
+| total | 269 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 986. Interval List Intersections ](./interval-list-intersections/) | medium | 2021-11-24 07:28 | 
+| [ 844. Backspace String Compare ](./backspace-string-compare/) | easy | 2021-11-23 19:18 | 
+| [ 82. Remove Duplicates from Sorted List II ](./remove-duplicates-from-sorted-list-ii/) | medium | 2021-11-23 09:33 | 
 | [ 547. Number of Provinces ](./number-of-provinces/) | medium | 2021-11-22 15:55 | 
 | [ 841. Keys and Rooms ](./keys-and-rooms/) | medium | 2021-11-22 12:14 | 
 | [ 1557. Minimum Number of Vertices to Reach All Nodes ](./minimum-number-of-vertices-to-reach-all-nodes/) | medium | 2021-11-22 11:05 | 
