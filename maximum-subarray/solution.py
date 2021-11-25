@@ -21,6 +21,23 @@ class Solution:
             dp[i] = max(dp[i - 1] + A[i], A[i])
         return max(dp)
 
+    def maxSubArray_divid_and_conquer(self, nums: List[int]) -> int:
+        # https://leetcode.com/problems/maximum-subarray/discuss/1595195/C%2B%2BPython-7-Simple-Solutions-w-Explanation-or-Brute-Force-%2B-DP-%2B-Kadane-%2B-Divide-and-Conquer
+
+        N = len(nums)
+        preS, tailS = [*nums], [*nums]
+        for i in range(1, N):
+            preS[i] += max(0, preS[i - 1])
+            tailS[N - i - 1] += max(0, tailS[N - i])
+
+        def maxSubArray(L, R):
+            if (L == R):
+                return nums[L]
+            mid = (L + R) >> 1
+
+            return max(maxSubArray(L, mid), maxSubArray(mid + 1, R), preS[mid] + tailS[mid+1])
+        return maxSubArray(0, N - 1)
+
 def main():
     A = list(map(int, input().split()))
     A.pop(0)
