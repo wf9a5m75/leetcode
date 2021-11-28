@@ -9,3 +9,11 @@ class Solution:
 
     def containsDuplicate_easy(self, nums: List[int]) -> bool:
         return len(nums) != len(set(nums))
+
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        mem = set()
+        for n in nums:
+            if n in mem:
+                return True
+            mem.add(n)
+        return False
