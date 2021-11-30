@@ -1,5 +1,8 @@
 class Solution:
     def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
+        #
+        # Union-Find approach
+        #
         N = len(accounts)
         parents = [0] * N
         parent2name = {}
