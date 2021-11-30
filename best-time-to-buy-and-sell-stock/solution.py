@@ -4,32 +4,49 @@ from typing import List
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-
-        # dpLow = [0, 7, 1, 1, 1, 1, 1, 1]
-        # dpLow[i + 1] = min(dp[i], prices[i])
-        # dpHigh = [7 6 6 6 6 6 6 4]
-        # dpHight[i - 1] = max(dp[i], prices[i])
-
-        n = len(prices)
-        dpLow = [0] * (n + 1)
-        dpHigh = [0] * (n + 1)
-
-        dpLow[0] = prices[0]
-        dpHigh[n] = prices[n - 1]
-
-        j = n - 1
-        for i in range(n):
-            dpLow[i + 1] = min(dpLow[i], prices[i])
-            dpHigh[j] = max(dpHigh[j + 1], prices[j])
-            j -= 1
         #
-        # print(dpLow)
-        # print(dpHigh)
+        # DP approach
+        #
+        N = len(prices)
+        dpL = [0] * N
+        dpR = dpL.copy()
+
+        dpL[0] = prices[0]
+        dpR[N - 1] = prices[N - 1]
+        for i in range(1, N):
+            dpL[i] = min(dpL[i - 1], prices[i])
+            dpR[N - 1 - i] = max(dpR[N - i], prices[N - 1 - i])
 
         maxProfit = 0
-        for i in range(1, n + 1):
-            maxProfit = max(maxProfit, dpHigh[i] - dpLow[i])
+        for i in range(N):
+            maxProfit = max(maxProfit, dpR[i] - dpL[i])
+        return maxProfit
 
+    def maxProfit(self, prices: List[int]) -> int:
+        #
+        # One pass approach
+        #
+        minPrice = 99999999
+        maxProfit = 0
+        for price in prices:
+            if (price < minPrice):
+                minPrice = price
+            elif price - minPrice > maxProfit:
+                maxProfit = price - minPrice
+        return maxProfit
+
+    def maxProfit(self, prices: List[int]) -> int:
+        #
+        # Another one pass
+        #
+        lowPrice = highPrice = prices[0]
+        maxProfit = 0
+        for price in prices:
+            if (price < lowPrice):
+                lowPrice = highPrice = price
+            else:
+                highPrice = price
+                maxProfit = max(maxProfit, highPrice - lowPrice)
         return maxProfit
 
 
