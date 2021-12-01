@@ -13,3 +13,22 @@ class Solution:
                 L += 1
                 R -= 1
         return "".join(s)
+
+    def reverseOnlyLetters(self, s: str) -> str:
+
+        # picks up only alphabet characters
+        stack = []
+        for c in s:
+            if c.isalpha():
+                stack.append(c)
+
+        # Build the answer
+        ans = []
+        for c in s:
+            if c.isalpha():
+                # If alphabet, use the stack top
+                ans.append(stack.pop())
+            else:
+                # otherwise, append the character.
+                ans.append(c)
+        return "".join(ans)
