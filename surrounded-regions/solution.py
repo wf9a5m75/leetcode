@@ -18,8 +18,11 @@ class Solution:
         Do not return anything, modify board in-place instead.
         """
         M, N = len(board), len(board[0])
-        newBoard = [["X"] * M for _ in range(N)]
 
+        #
+        # Protect `O` cells such that
+        # face to the board edges
+        #
         for y in range(M):
             if (board[y][0] == "O"):
                 self.protectOcells(board, y, 0)
@@ -31,6 +34,11 @@ class Solution:
             if (board[M - 1][x] == "O"):
                 self.protectOcells(board, M - 1, x)
 
+        # The rest of `X` does not face to
+        # any board edges. We can replace them.
+        #
+        # Also the `P` cells which originally `O`
+        # goes back to `O`
         for y in range(M):
             for x in range(N):
                 if board[y][x] == "O":
