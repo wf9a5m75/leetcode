@@ -1,16 +1,28 @@
 # LeetCode 
-### last update: Sat Nov 27 19:09:40 PST 2021
+### last update: Tue Nov 30 16:59:37 PST 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |127 |
-| medium |141 |
-| hard |9 |
-| total | 277 |
+| easy |134 |
+| medium |145 |
+| hard |10 |
+| total | 289 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1861. Rotating the Box ](./rotating-the-box/) | medium | 2021-11-30 16:38 | 
+| [ 1721. Swapping Nodes in a Linked List ](./swapping-nodes-in-a-linked-list/) | medium | 2021-11-30 15:40 | 
+| [ 925. Long Pressed Name ](./long-pressed-name/) | hard | 2021-11-30 12:00 | 
+| [ 680. Valid Palindrome II ](./valid-palindrome-ii/) | easy | 2021-11-30 11:28 | 
+| [ 917. Reverse Only Letters ](./reverse-only-letters/) | easy | 2021-11-30 10:33 | 
+| [ 1332. Remove Palindromic Subsequences ](./remove-palindromic-subsequences/) | easy | 2021-11-30 08:16 | 
+| [ 821. Shortest Distance to a Character ](./shortest-distance-to-a-character/) | easy | 2021-11-30 07:37 | 
+| [ 1768. Merge Strings Alternately ](./merge-strings-alternately/) | easy | 2021-11-30 07:16 | 
+| [ 2000. Reverse Prefix of Word ](./reverse-prefix-of-word/) | easy | 2021-11-30 06:52 | 
+| [ 832. Flipping an Image ](./flipping-an-image/) | easy | 2021-11-30 06:45 | 
+| [ 721. Accounts Merge ](./accounts-merge/) | medium | 2021-11-29 16:00 | 
+| [ 1418. Display Table of Food Orders in a Restaurant ](./display-table-of-food-orders-in-a-restaurant/) | medium | 2021-11-28 14:32 | 
 | [ 1091. Shortest Path in Binary Matrix ](./shortest-path-in-binary-matrix/) | medium | 2021-11-27 17:44 | 
 | [ 1010. Pairs of Songs With Total Durations Divisible by 60 ](./pairs-of-songs-with-total-durations-divisible-by-60/) | medium | 2021-11-27 11:43 | 
 | [ 572. Subtree of Another Tree ](./subtree-of-another-tree/) | easy | 2021-11-26 17:47 | 
