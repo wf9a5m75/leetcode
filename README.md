@@ -1,16 +1,21 @@
 # LeetCode 
-### last update: Tue Nov 30 16:59:37 PST 2021
+### last update: Thu Dec  2 11:38:09 PST 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |134 |
-| medium |145 |
+| easy |137 |
+| medium |147 |
 | hard |10 |
-| total | 289 |
+| total | 294 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1023. Camelcase Matching ](./camelcase-matching/) | medium | 2021-12-02 11:37 | 
+| [ 1021. Remove Outermost Parentheses ](./remove-outermost-parentheses/) | easy | 2021-12-02 07:02 | 
+| [ 1614. Maximum Nesting Depth of the Parentheses ](./maximum-nesting-depth-of-the-parentheses/) | easy | 2021-12-02 06:44 | 
+| [ 503. Next Greater Element II ](./next-greater-element-ii/) | medium | 2021-12-01 18:04 | 
+| [ 496. Next Greater Element I ](./next-greater-element-i/) | easy | 2021-12-01 09:23 | 
 | [ 1861. Rotating the Box ](./rotating-the-box/) | medium | 2021-11-30 16:38 | 
 | [ 1721. Swapping Nodes in a Linked List ](./swapping-nodes-in-a-linked-list/) | medium | 2021-11-30 15:40 | 
 | [ 925. Long Pressed Name ](./long-pressed-name/) | hard | 2021-11-30 12:00 | 
