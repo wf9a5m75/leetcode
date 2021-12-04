@@ -3,6 +3,11 @@ from io import StringIO
 
 class Solution:
     def checkValidString(self, s: str) -> bool:
+        #
+        # Backtracking with memoization
+        #   time complexity: O(N * N)
+        #  space complexity: O(N * N)
+        #
         dp = {}
 
         def backtracking(L: int, start: int) -> bool:
@@ -36,7 +41,35 @@ class Solution:
 
         return backtracking(0, 0)
 
+    def checkValidString(self, s: str) -> bool:
+        #
+        # DP : O(N * N * N)
+        # https://leetcode.com/problems/valid-parenthesis-string/discuss/525416/javascript-dp
+        N = len(s)
+        if (N == 0):
+            return True
 
+        dp = [[False] * (N + 1) for _ in range(N)]
+        for i in range(N):
+            dp[i][0] = True
+            dp[i][1] = (s[i] == "*")
+
+        for size in range(2, N + 1):
+            start = 0
+            while(start <= N - size):
+                end = start + size - 1
+
+                # pair
+                if (s[start] == "(") or (s[start] == "*"):
+                    if (s[end] == "*") or (s[end] == ")"):
+                        dp[start][size] = dp[start][size] or dp[start + 1][size - 2]
+
+                # two parts
+                for k in range(1, size):
+                    dp[start][size] = dp[start][size] or (dp[start][k] and dp[start + k][size - k])
+                start += 1
+
+        return dp[0][N]
 
 def main():
     A = input()
