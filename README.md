@@ -1,16 +1,26 @@
 # LeetCode 
-### last update: Sat Dec  4 19:48:21 PST 2021
+### last update: Mon Dec  6 18:53:55 PST 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |138 |
-| medium |151 |
+| easy |143 |
+| medium |156 |
 | hard |11 |
-| total | 300 |
+| total | 310 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1351. Count Negative Numbers in a Sorted Matrix ](./count-negative-numbers-in-a-sorted-matrix/) | easy | 2021-12-06 18:49 | 
+| [ 1329. Sort the Matrix Diagonally ](./sort-the-matrix-diagonally/) | medium | 2021-12-06 17:46 | 
+| [ 1290. Convert Binary Number in a Linked List to Integer ](./convert-binary-number-in-a-linked-list-to-integer/) | easy | 2021-12-06 17:21 | 
+| [ 402. Remove K Digits ](./remove-k-digits/) | medium | 2021-12-06 12:51 | 
+| [ 1572. Matrix Diagonal Sum ](./matrix-diagonal-sum/) | easy | 2021-12-06 07:55 | 
+| [ 1605. Find Valid Matrix Given Row and Column Sums ](./find-valid-matrix-given-row-and-column-sums/) | medium | 2021-12-06 06:53 | 
+| [ 739. Daily Temperatures ](./daily-temperatures/) | medium | 2021-12-05 19:12 | 
+| [ 1047. Remove All Adjacent Duplicates In String ](./remove-all-adjacent-duplicates-in-string/) | easy | 2021-12-05 18:24 | 
+| [ 1217. Minimum Cost to Move Chips to The Same Position ](./minimum-cost-to-move-chips-to-the-same-position/) | easy | 2021-12-05 18:09 | 
+| [ 213. House Robber II ](./house-robber-ii/) | medium | 2021-12-05 17:08 | 
 | [ 150. Evaluate Reverse Polish Notation ](./evaluate-reverse-polish-notation/) | medium | 2021-12-04 17:15 | 
 | [ 143. Reorder List ](./reorder-list/) | medium | 2021-12-04 15:34 | 
 | [ 114. Flatten Binary Tree to Linked List ](./flatten-binary-tree-to-linked-list/) | medium | 2021-12-04 11:51 | 
