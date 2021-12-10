@@ -1,16 +1,23 @@
 # LeetCode 
-### last update: Mon Dec  6 18:53:55 PST 2021
+### last update: Thu Dec  9 19:13:25 PST 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |143 |
-| medium |156 |
-| hard |11 |
-| total | 310 |
+| easy |144 |
+| medium |160 |
+| hard |13 |
+| total | 317 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1345. Jump Game IV ](./jump-game-iv/) | hard | 2021-12-09 17:11 | 
+| [ 1306. Jump Game III ](./jump-game-iii/) | medium | 2021-12-09 12:34 | 
+| [ 45. Jump Game II ](./jump-game-ii/) | medium | 2021-12-09 12:02 | 
+| [ 84. Largest Rectangle in Histogram ](./largest-rectangle-in-histogram/) | hard | 2021-12-08 19:23 | 
+| [ 79. Word Search ](./word-search/) | medium | 2021-12-08 10:03 | 
+| [ 563. Binary Tree Tilt ](./binary-tree-tilt/) | easy | 2021-12-07 17:54 | 
+| [ 86. Partition List ](./partition-list/) | medium | 2021-12-06 21:31 | 
 | [ 1351. Count Negative Numbers in a Sorted Matrix ](./count-negative-numbers-in-a-sorted-matrix/) | easy | 2021-12-06 18:49 | 
 | [ 1329. Sort the Matrix Diagonally ](./sort-the-matrix-diagonally/) | medium | 2021-12-06 17:46 | 
 | [ 1290. Convert Binary Number in a Linked List to Integer ](./convert-binary-number-in-a-linked-list-to-integer/) | easy | 2021-12-06 17:21 | 
