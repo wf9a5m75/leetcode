@@ -1,16 +1,29 @@
 # LeetCode 
-### last update: Thu Dec  9 19:13:25 PST 2021
+### last update: Sun Dec 19 17:48:40 PST 2021
 ## summary
 | level | counts |
 |-|-|
-| easy |144 |
-| medium |160 |
+| easy |150 |
+| medium |167 |
 | hard |13 |
-| total | 317 |
+| total | 330 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1200. Minimum Absolute Difference ](./minimum-absolute-difference/) | easy | 2021-12-19 17:48 | 
+| [ 394. Decode String ](./decode-string/) | medium | 2021-12-19 17:36 | 
+| [ 1528. Shuffle String ](./shuffle-string/) | easy | 2021-12-17 20:16 | 
+| [ 1013. Partition Array Into Three Parts With Equal Sum ](./partition-array-into-three-parts-with-equal-sum/) | easy | 2021-12-17 19:21 | 
+| [ maximal-square ](./maximal-square/) | medium | 2021-12-16 18:38 | 
+| [ 654. Maximum Binary Tree ](./maximum-binary-tree/) | medium | 2021-12-15 21:39 | 
+| [ 1475. Final Prices With a Special Discount in a Shop ](./final-prices-with-a-special-discount-in-a-shop/) | easy | 2021-12-15 09:44 | 
+| [ 1008. Construct Binary Search Tree from Preorder Traversal ](./construct-binary-search-tree-from-preorder-traversal/) | medium | 2021-12-15 07:15 | 
+| [ 147. Insertion Sort List ](./insertion-sort-list/) | medium | 2021-12-14 17:41 | 
+| [ 938. Range Sum of BST ](./range-sum-of-bst/) | easy | 2021-12-13 22:19 | 
+| [ 416. Partition Equal Subset Sum ](./partition-equal-subset-sum/) | medium | 2021-12-13 21:54 | 
+| [ 1759. Count Number of Homogenous Substrings ](./count-number-of-homogenous-substrings/) | medium | 2021-12-12 18:15 | 
+| [ 1446. Consecutive Characters ](./consecutive-characters/) | easy | 2021-12-12 17:34 | 
 | [ 1345. Jump Game IV ](./jump-game-iv/) | hard | 2021-12-09 17:11 | 
 | [ 1306. Jump Game III ](./jump-game-iii/) | medium | 2021-12-09 12:34 | 
 | [ 45. Jump Game II ](./jump-game-ii/) | medium | 2021-12-09 12:02 | 
