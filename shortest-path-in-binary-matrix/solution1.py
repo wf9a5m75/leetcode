@@ -1,5 +1,8 @@
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
+        #
+        # DFS approach
+        #
         N = len(grid)
         if (N == 0) or (grid[0][0] == 1) or (grid[N - 1][N - 1] == 1):
             return -1
@@ -33,4 +36,3 @@ class Solution:
             # Mark as visited on the current cell
             grid[y][x] = 2
         return -1
-    
