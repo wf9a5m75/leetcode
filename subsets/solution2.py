@@ -1,8 +1,9 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-    def subsets(self, nums: List[int]) -> List[List[int]]:
         #
         # (2) Backtracking approach
+        #   Time complexity: O(N * 2**N)
+        #   Space complexity: O(N)
         #
         outputs = []
 

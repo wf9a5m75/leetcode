@@ -2,8 +2,8 @@ class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         #
         # (1) Iteration approach
-        #   Time complexity: O(N * N)
-        #   Space complexity: O(N * N)
+        #   Time complexity: O(N * 2**N)
+        #   Space complexity: O(N * 2**N)
         #
         #
 
