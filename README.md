@@ -1,16 +1,17 @@
 # LeetCode 
-### last update: Tue Dec 21 22:27:41 PST 2021
+### last update: Wed Dec 22 23:22:46 PST 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |150 |
-| medium |168 |
+| medium |169 |
 | hard |13 |
-| total | 331 |
+| total | 332 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 31. Next Permutation ](./next-permutation/) | medium | 2021-12-22 19:36 | 
 | [ 152. Maximum Product Subarray ](./maximum-product-subarray/) | medium | 2021-12-19 22:26 | 
 | [ 1200. Minimum Absolute Difference ](./minimum-absolute-difference/) | easy | 2021-12-19 17:48 | 
 | [ 394. Decode String ](./decode-string/) | medium | 2021-12-19 17:36 | 
