@@ -1,3 +1,7 @@
+from test import checkTests
+from typing import List
+from collections import defaultdict
+
 class Node:
     def __init__(self, val: str):
         self.val = val
@@ -61,3 +65,5 @@ class Solution:
                 return True
 
         return False
+
+checkTests(Solution().exist)
