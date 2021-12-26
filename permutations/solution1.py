@@ -1,22 +1,24 @@
-from typing import List
 
 class Solution:
-    def permute(self, nums: List[int]) -> List[List[int]]:
-        n = len(nums)
-        if (n == 1):
-            return [nums.copy()]
+	def permute(self, nums: List[int]) -> List[List[int]]:
+		N = len(nums)
 
-        # if (n == 2):
-        #     return [nums.copy(), [nums[1], nums[0]]]
+		# If no other combination, then goes back.
+		if (N == 1):
+			return [ nums.copy() ]
 
-        results = []
-        for i in range(n):
-            tmp = nums.pop(i)
+		results = []
+		for i in range(N):
+			# Pop one element from nums,
+			# and we produce all combinations with the rest of the nums.
+			tmp = nums.pop(i)
+			others = self.permute(nums)
 
-            others = self.permute(nums)
-            for j in range(len(others)):
-                others[j].insert(0, tmp)
-            results += others
+			# Inserting the one element we popuped into the other results
+			for other in others:
+				other.insert(0, tmp)
+				results.append(other)
 
-            nums.insert(i, tmp)
-        return results
+			# Put back the element
+			nums.insert(i, tmp)
+		return results
