@@ -1,16 +1,19 @@
 # LeetCode 
-### last update: Mon Dec 27 11:23:03 PST 2021
+### last update: Wed Dec 29 21:46:32 PST 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |151 |
-| medium |172 |
+| medium |175 |
 | hard |14 |
-| total | 337 |
+| total | 340 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 91. Decode Ways ](./decode-ways/) | medium | 2021-12-29 17:49 | 
+| [ 413. Arithmetic Slices ](./arithmetic-slices/) | medium | 2021-12-29 14:20 | 
+| [ 443. String Compression ](./string-compression/) | medium | 2021-12-29 12:05 | 
 | [ 476. Number Complement ](./number-complement/) | easy | 2021-12-26 18:37 | 
 | [ 973. K Closest Points to Origin ](./k-closest-points-to-origin/) | medium | 2021-12-25 21:49 | 
 | [ 212. Word Search II ](./word-search-ii/) | hard | 2021-12-25 17:11 | 
