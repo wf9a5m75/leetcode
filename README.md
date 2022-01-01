@@ -1,16 +1,22 @@
 # LeetCode 
-### last update: Wed Dec 29 21:46:32 PST 2021
+### last update: Fri Dec 31 18:21:34 PST 2021
 ## summary
 | level | counts |
 |-|-|
 | easy |151 |
-| medium |175 |
+| medium |181 |
 | hard |14 |
-| total | 340 |
+| total | 346 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1143. Longest Common Subsequence ](./longest-common-subsequence/) | medium | 2021-12-31 15:28 | 
+| [ 201. Bitwise AND of Numbers Range ](./bitwise-and-of-numbers-range/) | medium | 2021-12-30 18:27 | 
+| [ 1026. Maximum Difference Between Node and Ancestor ](./maximum-difference-between-node-and-ancestor/) | medium | 2021-12-30 17:49 | 
+| [ 300. Longest Increasing Subsequence ](./longest-increasing-subsequence/) | medium | 2021-12-30 16:22 | 
+| [ 1015. Smallest Integer Divisible by K ](./smallest-integer-divisible-by-k/) | medium | 2021-12-30 12:13 | 
+| [ 139. Word Break ](./word-break/) | medium | 2021-12-29 22:11 | 
 | [ 91. Decode Ways ](./decode-ways/) | medium | 2021-12-29 17:49 | 
 | [ 413. Arithmetic Slices ](./arithmetic-slices/) | medium | 2021-12-29 14:20 | 
 | [ 443. String Compression ](./string-compression/) | medium | 2021-12-29 12:05 | 
