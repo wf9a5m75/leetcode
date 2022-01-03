@@ -1,6 +1,6 @@
 class Solution:
     def findJudge(self, n: int, trust: List[List[int]]) -> int:
-        graph = [-1 for i in range(n + 1)]
+        graph = [-1] * (n + 1)
         scores = [0] * (n + 1)
 
         for peopleA, peopleB in trust:
