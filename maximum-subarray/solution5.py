@@ -5,23 +5,9 @@ from typing import List
 class Solution:
 
     def maxSubArray(self, nums: List[int]) -> int:
-        # Greedy
-        s = 0
-        maxS = -10**4
-        for num in nums:
-            s = max(s + num, num)
-            maxS = max(maxS, s)
-        return maxS
-
-    def maxSubArray_dp(self, A: List[int]) -> int:
-        # DP
-        sizeA = len(A)
-        dp = [ A[0] ] * (sizeA + 1)
-        for i in range(1, sizeA):
-            dp[i] = max(dp[i - 1] + A[i], A[i])
-        return max(dp)
-
-    def maxSubArray_divid_and_conquer(self, nums: List[int]) -> int:
+        #
+        #  divid_and_conquer
+        #
         # https://leetcode.com/problems/maximum-subarray/discuss/1595195/C%2B%2BPython-7-Simple-Solutions-w-Explanation-or-Brute-Force-%2B-DP-%2B-Kadane-%2B-Divide-and-Conquer
 
         N = len(nums)
