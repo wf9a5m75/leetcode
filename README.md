@@ -1,16 +1,22 @@
 # LeetCode 
-### last update: Fri Dec 31 18:21:34 PST 2021
+### last update: Thu Jan  6 16:30:26 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |151 |
-| medium |181 |
+| easy |155 |
+| medium |183 |
 | hard |14 |
-| total | 346 |
+| total | 352 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 740. Delete and Earn ](./delete-and-earn/) | medium | 2022-01-06 16:29 | 
+| [ 1470. Shuffle the Array ](./shuffle-the-array/) | easy | 2022-01-05 13:22 | 
+| [ 746. Min Cost Climbing Stairs ](./min-cost-climbing-stairs/) | easy | 2022-01-05 07:24 | 
+| [ 1995. Count Special Quadruplets ](./count-special-quadruplets/) | easy | 2022-01-04 17:53 | 
+| [ 334. Increasing Triplet Subsequence ](./increasing-triplet-subsequence/) | medium | 2022-01-04 13:39 | 
+| [ 1009. Complement of Base 10 Integer ](./complement-of-base-10-integer/) | easy | 2022-01-03 16:24 | 
 | [ 1143. Longest Common Subsequence ](./longest-common-subsequence/) | medium | 2021-12-31 15:28 | 
 | [ 201. Bitwise AND of Numbers Range ](./bitwise-and-of-numbers-range/) | medium | 2021-12-30 18:27 | 
 | [ 1026. Maximum Difference Between Node and Ancestor ](./maximum-difference-between-node-and-ancestor/) | medium | 2021-12-30 17:49 | 
