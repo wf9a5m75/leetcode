@@ -1,16 +1,25 @@
 # LeetCode 
-### last update: Sun Jan  9 19:40:08 PST 2022
+### last update: Sat Jan 15 18:13:46 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |155 |
-| medium |187 |
+| easy |157 |
+| medium |193 |
 | hard |14 |
-| total | 356 |
+| total | 364 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 62. Unique Paths ](./ugly-number-ii/) | medium | 2022-01-15 18:02 | 
+| [ 849. Maximize Distance to Closest Person ](./maximize-distance-to-closest-person/) | medium | 2022-01-15 16:46 | 
+| [ 1345. Jump Game IV ](./jump-game-iv/) | hard | 2022-01-15 16:43 | 
+| [ 452. Minimum Number of Arrows to Burst Balloons ](./minimum-number-of-arrows-to-burst-balloons/) | medium | 2022-01-12 17:22 | 
+| [ 714. Best Time to Buy and Sell Stock with Transaction Fee ](./best-time-to-buy-and-sell-stock-with-transaction-fee/) | medium | 2022-01-11 23:43 | 
+| [ 309. Best Time to Buy and Sell Stock with Cooldown ](./best-time-to-buy-and-sell-stock-with-cooldown/) | medium | 2022-01-11 19:14 | 
+| [ 1022. Sum of Root To Leaf Binary Numbers ](./sum-of-root-to-leaf-binary-numbers/) | easy | 2022-01-10 16:43 | 
+| [ 1014. Best Sightseeing Pair ](./best-sightseeing-pair/) | medium | 2022-01-10 14:43 | 
+| [ 989. Add to Array-Form of Integer ](./add-to-array-form-of-integer/) | easy | 2022-01-09 19:49 | 
 | [ 1567. Maximum Length of Subarray With Positive Product ](./maximum-length-of-subarray-with-positive-product/) | medium | 2022-01-09 18:55 | 
 | [ 1041. Robot Bounded In Circle ](./robot-bounded-in-circle/) | medium | 2022-01-09 16:05 | 
 | [ 918. Maximum Sum Circular Subarray ](./maximum-sum-circular-subarray/) | medium | 2022-01-07 15:59 | 
@@ -50,7 +59,6 @@
 | [ 416. Partition Equal Subset Sum ](./partition-equal-subset-sum/) | medium | 2021-12-13 21:54 | 
 | [ 1759. Count Number of Homogenous Substrings ](./count-number-of-homogenous-substrings/) | medium | 2021-12-12 18:15 | 
 | [ 1446. Consecutive Characters ](./consecutive-characters/) | easy | 2021-12-12 17:34 | 
-| [ 1345. Jump Game IV ](./jump-game-iv/) | hard | 2021-12-09 17:11 | 
 | [ 1306. Jump Game III ](./jump-game-iii/) | medium | 2021-12-09 12:34 | 
 | [ 45. Jump Game II ](./jump-game-ii/) | medium | 2021-12-09 12:02 | 
 | [ 84. Largest Rectangle in Histogram ](./largest-rectangle-in-histogram/) | hard | 2021-12-08 19:23 | 
@@ -173,7 +181,6 @@
 | [ 733. Flood Fill ](./flood-fill/) | easy | 2021-11-05 07:08 | 
 | [ 567. Permutation in String ](./permutation-in-string/) | medium | 2021-11-05 06:57 | 
 | [ 441. Arranging Coins ](./arranging-coins/) | easy | 2021-11-04 23:06 | 
-| [ 876. Middle of the Linked List ](./middle-of-the-linked-list/) | easy | 2021-11-04 19:37 | 
 | [ 557. Reverse Words in a String III ](./reverse-words-in-a-string-iii/) | easy | 2021-11-04 19:32 | 
 | [ 151. Reverse Words in a String ](./reverse-words-in-a-string/) | medium | 2021-11-04 19:03 | 
 | [ 653. Two Sum IV - Input is a BST ](./two-sum-iv-input-is-a-bst/) | easy | 2021-11-04 17:08 | 
