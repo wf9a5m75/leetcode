@@ -1,16 +1,18 @@
 # LeetCode 
-### last update: Sat Jan 15 18:13:46 PST 2022
+### last update: Sat Jan 15 23:08:39 PST 2022
 ## summary
 | level | counts |
 |-|-|
 | easy |157 |
-| medium |193 |
+| medium |194 |
 | hard |14 |
-| total | 364 |
+| total | 365 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 931. Minimum Falling Path Sum ](./minimum-falling-path-sum/) | medium | 2022-01-15 22:54 | 
+| [ 119. Pascal's Triangle II ](./pascals-triangle-ii/) | easy | 2022-01-15 22:36 | 
 | [ 62. Unique Paths ](./ugly-number-ii/) | medium | 2022-01-15 18:02 | 
 | [ 849. Maximize Distance to Closest Person ](./maximize-distance-to-closest-person/) | medium | 2022-01-15 16:46 | 
 | [ 1345. Jump Game IV ](./jump-game-iv/) | hard | 2022-01-15 16:43 | 
@@ -181,6 +183,7 @@
 | [ 733. Flood Fill ](./flood-fill/) | easy | 2021-11-05 07:08 | 
 | [ 567. Permutation in String ](./permutation-in-string/) | medium | 2021-11-05 06:57 | 
 | [ 441. Arranging Coins ](./arranging-coins/) | easy | 2021-11-04 23:06 | 
+| [ 876. Middle of the Linked List ](./middle-of-the-linked-list/) | easy | 2021-11-04 19:37 | 
 | [ 557. Reverse Words in a String III ](./reverse-words-in-a-string-iii/) | easy | 2021-11-04 19:32 | 
 | [ 151. Reverse Words in a String ](./reverse-words-in-a-string/) | medium | 2021-11-04 19:03 | 
 | [ 653. Two Sum IV - Input is a BST ](./two-sum-iv-input-is-a-bst/) | easy | 2021-11-04 17:08 | 
@@ -353,7 +356,6 @@
 | [ 136. Single Number ](./single-number/) | easy | 2021-10-18 17:42 | 
 | [ 125. Valid Palindrome ](./valid-palindrome/) | easy | 2021-10-18 17:16 | 
 | [ 121. Best Time to Buy and Sell Stock ](./best-time-to-buy-and-sell-stock/) | easy | 2021-10-18 16:40 | 
-| [ 119. Pascal's Triangle II ](./pascals-triangle-ii/) | easy | 2021-10-18 15:58 | 
 | [ 118. Pascal's Triangle ](./pascals-triangle/) | easy | 2021-10-18 15:22 | 
 | [ 110. Balanced Binary Tree ](./balanced-binary-tree/) | easy | 2021-10-18 13:14 | 
 | [ 108. Convert Sorted Array to Binary Search Tree ](./convert-sorted-array-to-binary-search-tree/) | easy | 2021-10-18 12:02 | 
