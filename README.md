@@ -1,16 +1,31 @@
 # LeetCode 
-### last update: Sat Jan 15 23:08:39 PST 2022
+### last update: Mon Jan 24 15:29:21 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |157 |
-| medium |194 |
-| hard |14 |
-| total | 365 |
+| easy |159 |
+| medium |203 |
+| hard |17 |
+| total | 379 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 712. Minimum ASCII Delete Sum for Two Strings ](./minimum-ascii-delete-sum-for-two-strings/) | medium | 2022-01-24 15:28 | 
+| [ 583. Delete Operation for Two Strings ](./delete-operation-for-two-strings/) | medium | 2022-01-24 13:58 | 
+| [ 188. Best Time to Buy and Sell Stock IV ](./best-time-to-buy-and-sell-stock-iv/) | hard | 2022-01-23 16:51 | 
+| [ 322. Coin Change ](./coin-change/) | medium | 2022-01-22 20:25 | 
+| [ 1335. Minimum Difficulty of a Job Schedule ](./minimum-difficulty-of-a-job-schedule/) | hard | 2022-01-22 14:58 | 
+| [ 1770. Maximum Score from Performing Multiplication Operations ](./maximum-score-from-performing-multiplication-operations/) | medium | 2022-01-21 17:45 | 
+| [ 1137. N-th Tribonacci Number ](./n-th-tribonacci-number/) | easy | 2022-01-21 13:07 | 
+| [ 376. Wiggle Subsequence ](./wiggle-subsequence/) | medium | 2022-01-21 11:22 | 
+| [ 647. Palindromic Substrings ](./palindromic-substrings/) | medium | 2022-01-20 19:43 | 
+| [ 134. Gas Station ](./gas-station/) | medium | 2022-01-20 18:07 | 
+| [ 516. Longest Palindromic Subsequence ](./longest-palindromic-subsequence/) | medium | 2022-01-20 11:13 | 
+| [ 875. Koko Eating Bananas](./koko-eating-bananas/) | #875.kokoeatingbananas | 2022-01-19 17:24 | 
+| [ 304. Range Sum Query 2D - Immutable ](./range-sum-query-2d-immutable/) | medium | 2022-01-18 11:39 | 
+| [ 605. Can Place Flowers ](./can-place-flowers/) | easy | 2022-01-17 16:51 | 
+| [ 1289. Minimum Falling Path Sum II ](./minimum-falling-path-sum-ii/) | hard | 2022-01-17 13:15 | 
 | [ 931. Minimum Falling Path Sum ](./minimum-falling-path-sum/) | medium | 2022-01-15 22:54 | 
 | [ 119. Pascal's Triangle II ](./pascals-triangle-ii/) | easy | 2022-01-15 22:36 | 
 | [ 62. Unique Paths ](./ugly-number-ii/) | medium | 2022-01-15 18:02 | 
