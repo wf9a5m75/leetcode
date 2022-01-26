@@ -1,16 +1,22 @@
 # LeetCode 
-### last update: Mon Jan 24 15:29:21 PST 2022
+### last update: Tue Jan 25 23:16:45 PST 2022
 ## summary
 | level | counts |
 |-|-|
 | easy |159 |
-| medium |203 |
-| hard |17 |
-| total | 379 |
+| medium |207 |
+| hard |19 |
+| total | 385 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1220. Count Vowels Permutation ](./count-vowels-permutation/) | hard | 2022-01-25 22:47 | 
+| [ 518. Coin Change 2 ](./coin-change-2/) | medium | 2022-01-25 10:16 | 
+| [ 72. Edit Distance ](./edit-distance/) | hard | 2022-01-24 22:09 | 
+| [ 279. Perfect Squares ](./perfect-squares/) | medium | 2022-01-24 19:56 | 
+| [ 343. Integer Break ](./integer-break/) | medium | 2022-01-24 19:23 | 
+| [ 518. Coin Change 2 ](./combination-sum-iv/) | medium | 2022-01-24 18:36 | 
 | [ 712. Minimum ASCII Delete Sum for Two Strings ](./minimum-ascii-delete-sum-for-two-strings/) | medium | 2022-01-24 15:28 | 
 | [ 583. Delete Operation for Two Strings ](./delete-operation-for-two-strings/) | medium | 2022-01-24 13:58 | 
 | [ 188. Best Time to Buy and Sell Stock IV ](./best-time-to-buy-and-sell-stock-iv/) | hard | 2022-01-23 16:51 | 
