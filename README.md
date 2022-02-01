@@ -1,16 +1,34 @@
 # LeetCode 
-### last update: Tue Jan 25 23:16:45 PST 2022
+### last update: Tue Feb  1 15:04:21 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |159 |
-| medium |207 |
-| hard |19 |
-| total | 385 |
+| easy |163 |
+| medium |216 |
+| hard |22 |
+| total | 401 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 2016. Maximum Difference Between Increasing Elements ](./maximum-difference-between-increasing-elements/) | easy | 2022-01-31 16:13 | 
+| [ 1525. Number of Good Ways to Split a String ](./number-of-good-ways-to-split-a-string/) | medium | 2022-01-31 10:44 | 
+| [ 1518. Water Bottles ](./water-bottles/) | easy | 2022-01-31 10:05 | 
+| [ 636. Exclusive Time of Functions ](./exclusive-time-of-functions/) | medium | 2022-01-30 22:25 | 
+| [ 123. Best Time to Buy and Sell Stock III ](./best-time-to-buy-and-sell-stock-iii/) | hard | 2022-01-29 22:37 | 
+| [ 877. Stone Game ](./stone-game/) | medium | 2022-01-29 19:29 | 
+| [ 2099. Find Subsequence of Length K With the Largest Sum](./find-subsequence-of-length-k-with-the-largest-sum/) | #2099.findsubsequenceoflengthkwiththelargestsum | 2022-01-29 16:39 | 
+| [ 295. Find Median from Data Stream ](./find-median-from-data-stream/) | hard | 2022-01-29 14:28 | 
+| [ 419. Battleships in a Board ](./battleships-in-a-board/) | medium | 2022-01-28 19:16 | 
+| [ 1642. Furthest Building You Can Reach ](./furthest-building-you-can-reach/) | medium | 2022-01-28 16:44 | 
+| [ 983. Minimum Cost For Tickets ](./minimum-cost-for-tickets/) | medium | 2022-01-28 13:01 | 
+| [ 718. Maximum Length of Repeated Subarray ](./maximum-length-of-repeated-subarray/) | medium | 2022-01-28 10:58 | 
+| [ 211. Design Add and Search Words Data Structure ](./design-add-and-search-words-data-structure/) | medium | 2022-01-27 16:47 | 
+| [ 703. Kth Largest Element in a Stream ](./kth-largest-element-in-a-stream/) | easy | 2022-01-27 12:28 | 
+| [ 1646. Get Maximum in Generated Array ](./get-maximum-in-generated-array/) | easy | 2022-01-26 19:14 | 
+| [ 97. Interleaving String ](./interleaving-string/) | medium | 2022-01-26 18:01 | 
+| [ 1155. Number of Dice Rolls With Target Sum ](./number-of-dice-rolls-with-target-sum/) | medium | 2022-01-26 16:17 | 
+| [ 1473. Paint House III ](./paint-house-iii/) | hard | 2022-01-26 10:36 | 
 | [ 1220. Count Vowels Permutation ](./count-vowels-permutation/) | hard | 2022-01-25 22:47 | 
 | [ 518. Coin Change 2 ](./coin-change-2/) | medium | 2022-01-25 10:16 | 
 | [ 72. Edit Distance ](./edit-distance/) | hard | 2022-01-24 22:09 | 
@@ -319,7 +337,6 @@
 | [ 1738. Find Kth Largest XOR Coordinate Value ](./find-kth-largest-xor-coordinate-value/) | medium | 2021-10-21 10:39 | 
 | [ 912. Sort an Array ](./sort-an-array/) | medium | 2021-10-21 01:06 | 
 | [ 1338. Reduce Array Size to The Half ](./reduce-array-size-to-the-half/) | medium | 2021-10-20 22:36 | 
-| [ 703. Kth Largest Element in a Stream ](./kth-largest-element-in-a-stream/) | medium | 2021-10-20 20:39 | 
 | [ 215. Kth Largest Element in an Array ](./kth-largest-element-in-an-array/) | medium | 2021-10-20 20:38 | 
 | [ 14. Longest Common Prefix ](./longest-common-prefix/) | easy | 2021-10-20 14:40 | 
 | [ 1046. Last Stone Weight ](./last-stone-weight/) | easy | 2021-10-20 14:40 | 
