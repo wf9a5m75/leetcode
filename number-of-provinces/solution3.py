@@ -6,6 +6,8 @@ class Disjoint:
         # All cities tree heights are 1.
         self.rank = [1] * N
 
+        self.numOfProvinces = N
+
     def findRoot(self, x: int) -> int:
         if (x == self.connected[x]):
             return x
@@ -36,13 +38,15 @@ class Disjoint:
                 self.connected[rootX] = rootY
                 self.rank[rootY] += 1
 
+            self.numOfProvinces -= 1
+
     def isConnected(self, x: int, y: int) -> bool:
         rootX = self.findRoot(x)
         rootY = self.findRoot(y)
         return rootX == rootY
-    def debug(self):
-        print(self.connected)
-        print(self.rank)
+
+    def getNumOfProvinces(self)->int:
+        return self.numOfProvinces
 
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
@@ -55,7 +59,4 @@ class Solution:
                     disjoint.union(y, x)
 
 
-        provinces = set()
-        for i in range(N):
-            provinces.add(disjoint.findRoot(i))
-        return len(provinces)
+        return disjoint.getNumOfProvinces()
