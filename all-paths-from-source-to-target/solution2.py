@@ -2,8 +2,8 @@ class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
         #
         #  BFS approach
-        #    Time complexity: O(N)
-        #    Space complexity: O(N)
+        #    Time complexity: O(2**v * V)
+        #    Space complexity: O(V)
         #
         N = len(graph)
         results = []

@@ -1,10 +1,5 @@
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
-        #
-        #  Backtracking approach
-        #    Time complexity: O(N)
-        #    Space complexity: O(N)
-        #
         results = []
 
         def walker(currIdx, path):
