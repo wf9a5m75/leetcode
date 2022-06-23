@@ -8,6 +8,8 @@
 | hard |22 |
 | total | 401 |
 
+Move on to the 2nd try at https://github.com/wf9a5m75/leetcode2
+
 ## questions
 | problem | level| last modified |
 |-|-|-|
