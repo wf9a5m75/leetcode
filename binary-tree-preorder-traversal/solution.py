@@ -1,18 +1,26 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
-#         self.next = next
+#         self.left = left
+#         self.right = right
 class Solution:
-    def hasCycle(self, head: Optional[ListNode]) -> bool:
-        p1 = head
-        p2 = head
-        while p1 and p2:
-            p1 = p1.next
-            p2 = p2.next
-            if p2 == None:
-                return False
-            p2 = p2.next
-            if p1 == p2:
-                return True
-        return False
+    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        if (root is None):
+            return []
+        stack = []
+        
+        results = []
+        while(root is not None) or (len(stack) > 0):
+            while(root is not None):
+                # pre-order traversal
+                results.append(root.val)
+                
+                stack.append(root)
+                root = root.left
+            
+            root = stack.pop()
+            root = root.right
+            
+        return results
+            
